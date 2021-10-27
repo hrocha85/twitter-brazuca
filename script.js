@@ -2,20 +2,15 @@
 
 function minhaDupla(eu , colega){
     console.log(colega)
-
     alert("minha dula é: " + eu +" e "+ colega)
 
 }
 
 
 
-
-
 function meusTestes(){
-
     console.log("aqui 1")
     // document.querySelector("#div3").innerHTML = '<a href=www.castgroup.com.br >cast mil grau</a>';
-
     window.alert("alerta curso acabado")
 
 
