@@ -12,6 +12,8 @@ function minhaDupla(eu , colega){
 
 }
 
+document.getElementsById("#familia").innerHTML = '<a href=www.castgroup.com.br >cast mil grau</a>';
+
 
 
 function meusTestes(){
@@ -72,28 +74,70 @@ let soma = joaninha + luluzinha;
 //-------------
 
 
-var larissa = 10
+// var larissa = 10
 
-larissa = 8 
+// larissa = 8 
 
-console.log(larissa)
+// console.log(larissa)
 
 // ------- decremento
 
-let x = 10;
-let y = x - 5;
+// let x = 10;
+// let y = x - 5;
 
-document.write(y);
+// document.write(y);
 
 // role mais simples
 
 
-let r = 10;
-r -= 5;
-document.write(r);
+// let r = 10;
+// r -= 5;
+// document.write(r);
 
 
 
+// aula 2
+
+
+const minhaFimilia = {
+    nome: "henrique",
+    idade: 25,
+    endereço: {
+      rua: "Rua dona ana nery",
+      numero: "15",
+      cep: "011029-390"
+    },
+    familia: [
+      "mae",
+      "pai",
+      "irmão",
+      "irmã"
+    ],
+    pets: [
+      {pet1:"lia"},
+      {pet2:"bela"}
+    ]
+  }
+
+ 
+
+// quando for lista array 
+// quando for a lista tiver atributos eu uso um obj
 
 
 
+//acessar objetos
+// o acesso de objs é feito atravez de ponto
+
+//acessando arrays 
+// o array é map e forEach
+
+
+minhaFimilia.familia.map( res =>  {
+
+
+  // document.querySelector('#familia').innerHTML = res
+
+})
+
+ 
