@@ -1,5 +1,11 @@
 
 
+function minhaFuncao(){
+    console.log("meu nome é henrque")
+}
+
+
+
 function minhaDupla(eu , colega){
     console.log(colega)
     alert("minha dula é: " + eu +" e "+ colega)
