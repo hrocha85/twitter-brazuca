@@ -4,24 +4,17 @@ function minhaFuncao(){
     console.log("meu nome é henrque")
 }
 
-
-
 function minhaDupla(eu , colega){
     console.log(colega)
     alert("minha dula é: " + eu +" e "+ colega)
 
 }
 
-document.getElementsById("#familia").innerHTML = '<a href=www.castgroup.com.br >cast mil grau</a>';
-
-
 
 function meusTestes(){
     console.log("aqui 1")
     // document.querySelector("#div3").innerHTML = '<a href=www.castgroup.com.br >cast mil grau</a>';
     window.alert("alerta curso acabado")
-
-
     console.log("aqui function")
 }
 
@@ -100,30 +93,43 @@ let soma = joaninha + luluzinha;
 
 
 const minhaFimilia = {
-    nome: "henrique",
-    idade: 25,
-    endereço: {
-      rua: "Rua dona ana nery",
-      numero: "15",
-      cep: "011029-390"
-    },
-    familia: [
-      "mae",
-      "pai",
-      "irmão",
-      "irmã"
-    ],
-    pets: [
-      {pet1:"lia"},
-      {pet2:"bela"}
-    ]
-  }
+  nome: "henrique",
+  idade: 25,
+  endereço: {
+    rua: "Rua dona ana nery",
+    numero: "15",
+    cep: "011029-390"
+  },
+  familia: [
+    "mae",
+    "pai", 
+    "irmã",
+    "irmão"
+  ],
+  pets: [
+    {pet1:"lia"},
+    {pet2:"bela"}
+  ]
+}
+
+var meuNome = "" 
+%
+console.log(minhaFimilia.length)
+
+
+if (minhaFimilia.length > 0){
+
+  console.log("não sou orfão")
+} else{
+
+  console.log("sou orfão")
+}
+
 
  
 
 // quando for lista array 
 // quando for a lista tiver atributos eu uso um obj
-
 
 
 //acessar objetos
@@ -133,11 +139,48 @@ const minhaFimilia = {
 // o array é map e forEach
 
 
-minhaFimilia.familia.map( res =>  {
+//metodos de navegação EX:
+
+//console.log(minhaFimilia.endereço)
+
+// navegando o arry pelo indice 
+//console.log(minhaFimilia.familia[0])
+
+//navegando com map 
+
+// minhaFimilia.familia.map((res)=> {
+//   res
+// })
 
 
-  // document.querySelector('#familia').innerHTML = res
+// var meuArray = ["larrisa","debora","fernada"]
 
-})
+// console.log(meuArray.indexOf(0))
 
- 
+
+// var metodoArray = new Array("larrisa","debora","fernada")
+
+// console.log(metodoArray," meu metodo")
+
+
+// var frutas = ['Banana', 'Laranja', 'Limao', 'Maçã', 'Manga'];
+// var citricos = frutas.slice(1,frutas.length - 1);
+
+// console.log(citricos)
+
+// citricos contem ['Laranja','Limao']
+
+
+var cpf = "433.864. 978-02" 
+
+var semNumero = cpf.replace(/[^\d]+/g,'').replace(" ",'')
+
+
+
+console.log("sem ponto",semNumero )
+console.log("com ponto", cpf )
+  
+
+const meuSorteio = ["carlos","gabriel","mikael","leo","gustavo"]
+
+console.log(meuSorteio.random())
